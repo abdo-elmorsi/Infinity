@@ -1,64 +1,34 @@
 export const Navigation = (props) => {
   return (
-    <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
+    <nav id='menu' className="navbar navbar-default navbar-expand-lg navbar-light  fixed-top">
       <div className='container'>
-        <div className='navbar-header'>
-          <button
-            type='button'
-            className='navbar-toggle collapsed'
-            data-toggle='collapse'
-            data-target='#bs-example-navbar-collapse-1'
-          >
-            {' '}
-            <span className='sr-only'>Toggle navigation</span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-          </button>
-          <a className='navbar-brand page-scroll' href='#'>
+        <div className="navbar-header  d-flex justify-content-between">
+          <a className="navbar-brand page-scroll" href="#">
             <img width={130} height={45} src="/img/logo.png" alt="logo" />
-          </a>{' '}
+          </a>
+          <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
         </div>
-
-        <div
-          className='collapse navbar-collapse'
-          id='bs-example-navbar-collapse-1'
-        >
-          <ul className='nav navbar-nav navbar-right'>
-            <li>
-              <a href='#features' className='page-scroll'>
-                Features
-              </a>
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul className="nav navbar-nav navbar-right">
+            <li className="nav-item">
+              <a className="nav-link page-scroll" href="#features">Features</a>
             </li>
-            <li>
-              <a href='#pricing' className='page-scroll'>
-                Pricing
-              </a>
+            <li className="nav-item">
+              <a className="nav-link page-scroll" href="#pricing">Pricing</a>
             </li>
-            {/* <li>
-              <a href='#about' className='page-scroll'>
-                About
-              </a>
-            </li> */}
-            {/* <li>
-              <a href='#services' className='page-scroll'>
-                Services
-              </a>
-            </li> */}
-            {/* <li>
-              <a href='#testimonials' className='page-scroll'>
-                Testimonials
-              </a>
-            </li> */}
-            {/* <li>
-              <a href='#team' className='page-scroll'>
-                Team
-              </a>
-            </li> */}
-            <li>
-              <a href='#contact' className='page-scroll'>
-                Contact
-              </a>
+            <li className="nav-item">
+              <a className="nav-link page-scroll" href="#about">About</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link page-scroll" href="#services">Services</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link page-scroll" href="#testimonials">Testimonials</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link page-scroll" href="#contact">Contact</a>
             </li>
           </ul>
         </div>

@@ -98,6 +98,7 @@ hr {
     padding: 8px 2px;
     border-radius: 0;
     margin: 9px 20px 0;
+    position: relative;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
     display: block;
@@ -206,62 +207,15 @@ a:focus,
     outline-offset: none;
 }
 /* Header Section */
-.intro {
-    display: table;
-    width: 100%;
-    padding: 0;
-    background: url(../img/intro-bg.jpg) center center no-repeat;
-    background-color: #e5e5e5;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+.header .carousel-inner .carousel-caption {
+    top: 50%;
 }
-.intro .overlay {
-    background: rgba(0, 0, 0, 0.2);
+.header .carousel-inner img {
+    max-height: 100vh !important;
 }
-.intro h1 {
-    font-family: "Raleway", sans-serif;
-    color: #fff;
-    font-size: 72px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-.intro h1 span {
-    font-weight: 800;
-    color: #5ca9fb;
-}
-.intro p {
-    color: #fff;
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 30px;
-    margin: 0 auto;
-    margin-bottom: 60px;
-}
-header .intro-text {
-    padding-top: 350px;
-    padding-bottom: 200px;
-    text-align: center;
-}
-/* Features Section */
+/* features */
 #features {
-    background: #f6f6f6;
-    padding: 50px 0;
-}
-#features i.fa {
-    font-size: 38px;
-    margin-bottom: 20px;
-    transition: all 0.5s;
-    color: #fff;
-    width: 100px;
-    height: 100px;
-    padding: 30px 0;
-    border-radius: 50%;
-    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+    padding: 100px 0;
 }
 /* About Section */
 #about {
