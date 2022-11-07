@@ -125,25 +125,25 @@
     "Features": [
         {
             "img": "https://qaraterp.com/public/upload/service/202102111544068169218.png",
-            "title": "Fully Manage, Your Gold and Jewellery Stores' Financial Accounting",
+            "title": "features_title_one_key",
             "options": [
-                "Assign employees and vendors and keep track of their activity records",
-                "Advanced reports informing you of the extent of performance of each employee and vendor according to the powers assigned to him",
-                "Reports showing sales achieved by each seller separately"
+                "features_details_one_one_key",
+                "features_details_one_two_key",
+                "features_details_one_three_key"
             ]
         },
         {
             "img": "https://qaraterp.com/public/upload/service/202102111600528935749.png",
-            "title": "Monitor vendors and store employees performance",
+            "title": "features_title_two_key",
             "options": [
-                "Assign employees and vendors and keep track of their activity records",
-                "Advanced reports informing you of the extent of performance of each employee and vendor according to the powers assigned to him",
-                "Reports showing sales achieved by each seller separately"
+                "features_details_two_one_key",
+                "features_details_two_two_key",
+                "features_details_two_three_key"
             ]
         },
         {
             "img": "https://qaraterp.com/public/upload/service/202102111652023562545.png",
-            "title": "Furniture design and implementation",
+            "title": "features_title_three_key",
             "options": [
                 "Calculate the net income for each period through the profit and loss report",
                 "View sales reports by items to learn about the best-selling jewellery and gold jewellery",
@@ -155,10 +155,8 @@
         },
         {
             "img": "https://qaraterp.com/public/upload/service/202102141248358267243.png",
-            "title": "Adjust it to suit you",
-            "options": [
-                "Choose the right module for you, whether it is gold by weight, gold by piece or diamond by piece, add your company logo. also you can freely adjust the site's colours and identity to match your brand identity"
-            ]
+            "title": "features_title_four_key",
+            "options": ["features_details_four_three_key"]
         }
     ],
     "Pricing": [
