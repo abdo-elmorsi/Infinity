@@ -217,6 +217,22 @@ a:focus,
 #features {
     padding: 100px 0;
 }
+@keyframes mymove {
+    from {
+        transform: translate(5px, 2px);
+    }
+    to {
+        transform: translate(-5px, -2px);
+    }
+}
+#features img {
+    width: 100%;
+    animation: mymove 2s infinite alternate;
+}
+
+#features h2 {
+    color: #4527a4;
+}
 /* About Section */
 #about {
     padding: 100px 0;

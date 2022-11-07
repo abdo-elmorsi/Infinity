@@ -18,7 +18,7 @@ export const Navigation = (props) => {
             <li className="nav-item">
               <a className="nav-link page-scroll" href="#pricing">Pricing</a>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link page-scroll" href="#about">About</a>
             </li>
             <li className="nav-item">
@@ -26,7 +26,7 @@ export const Navigation = (props) => {
             </li>
             <li className="nav-item">
               <a className="nav-link page-scroll" href="#testimonials">Testimonials</a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link page-scroll" href="#contact">Contact</a>
             </li>

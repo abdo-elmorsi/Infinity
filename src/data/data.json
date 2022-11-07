@@ -114,46 +114,61 @@
     },
     "Features": [
         {
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "img": "https://qaraterp.com/public/upload/service/202102111544068169218.png",
+            "title": "Fully Manage, Your Gold and Jewellery Stores' Financial Accounting",
+            "options": [
+                "Assign employees and vendors and keep track of their activity records",
+                "Advanced reports informing you of the extent of performance of each employee and vendor according to the powers assigned to him",
+                "Reports showing sales achieved by each seller separately"
+            ]
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "img": "https://qaraterp.com/public/upload/service/202102111600528935749.png",
+            "title": "Monitor vendors and store employees performance",
+            "options": [
+                "Assign employees and vendors and keep track of their activity records",
+                "Advanced reports informing you of the extent of performance of each employee and vendor according to the powers assigned to him",
+                "Reports showing sales achieved by each seller separately"
+            ]
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "img": "https://qaraterp.com/public/upload/service/202102111652023562545.png",
+            "title": "Furniture design and implementation",
+            "options": [
+                "Calculate the net income for each period through the profit and loss report",
+                "View sales reports by items to learn about the best-selling jewellery and gold jewellery",
+                "Make a periodic inventory of your stock of products through the inventory report. You can also benefit from many other reports that cover all aspects of your business.",
+                "Follow up the daily reports that are created automatically for any financial operations or procedures that take place inside the store",
+                "A complete network of accounts displaying all balances of the store's accounts with all movements within each account",
+                "Final accounting reports determining the financial position of the shop at the end of the year."
+            ]
         },
         {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "img": "https://qaraterp.com/public/upload/service/202102141248358267243.png",
+            "title": "Adjust it to suit you",
+            "options": [
+                "Choose the right module for you, whether it is gold by weight, gold by piece or diamond by piece, add your company logo. also you can freely adjust the site's colours and identity to match your brand identity"
+            ]
         }
     ],
     "Pricing": [
         {
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Monthly Subscription",
+            "price": "5,000.00",
+            "options": [
+                "10 GB of storage",
+                "Priority email support",
+                "Help center access"
+            ]
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Annual Subscription",
+            "price": "5,750.00",
+            "options": [
+                "10 GB of storage",
+                "Priority email support",
+                "Help center access"
+            ]
         }
     ]
 }
