@@ -3,12 +3,12 @@
     "pricing_key": "Pricing",
     "contact_key": "Contact",
     "support_e_Invoice_key": "Support E-Invoice",
-    "header_title_one_key": "Qarat is an ERP system that supports the Arabic language for managing gold and jewelry stores. It supports the application of the first phase of issuing the electronic invoice, in its two forms, the tax invoice and the simplified tax invoice.  And you can follow up on the general sales of products and gold jewelry by piece and weight in addition to following up the sales of each seller separately, following up your stock of products, displaying stock value reports and inventory reports, and issuing profit and loss reports to know how well your business is performing each period of time.",
+    "header_title_one_key": "Infinity is an ERP system that supports the Arabic language for managing gold and jewelry stores. It supports the application of the first phase of issuing the electronic invoice, in its two forms, the tax invoice and the simplified tax invoice.  And you can follow up on the general sales of products and gold jewelry by piece and weight in addition to following up the sales of each seller separately, following up your stock of products, displaying stock value reports and inventory reports, and issuing profit and loss reports to know how well your business is performing each period of time.",
 
     "features_title_one_key": "Fully Manage, Your Gold and Jewellery Stores' Financial Accounting",
-    "features_details_one_one_key": "Assign employees and vendors and keep track of their activity records",
-    "features_details_one_two_key": "Advanced reports informing you of the extent of performance of each employee and vendor according to the powers assigned to him",
-    "features_details_one_three_key": "Reports showing sales achieved by each seller separately",
+    "features_details_one_one_key": "Manage your store accounts, track sales and calculate profits",
+    "features_details_one_two_key": "Issue sale and purchase invoices, including taxes and financial discounts",
+    "features_details_one_three_key": "Track product sales, record revenues and store expenses, then calculate the net profits for each specific period of time",
 
     "features_title_two_key": "Monitor vendors and store employees performance",
     "features_details_two_one_key": "Assign employees and vendors and keep track of their activity records",
@@ -16,6 +16,27 @@
     "features_details_two_three_key": "Reports showing sales achieved by each seller separately",
 
     "features_title_three_key": "Furniture design and implementation",
+    "features_details_three_one_key": "Calculate the net income for each period through the profit and loss report",
+    "features_details_three_two_key": "View sales reports by items to learn about the best-selling jewellery and gold jewellery",
+    "features_details_three_three_key": "Make a periodic inventory of your stock of products through the inventory report. You can also benefit from many other reports that cover all aspects of your business.",
+    "features_details_three_four_key": "Follow up the daily reports that are created automatically for any financial operations or procedures that take place inside the store",
+    "features_details_three_fife_key": "A complete network of accounts displaying all balances of the store's accounts with all movements within each account",
+    "features_details_three_six_key": "Final accounting reports determining the financial position of the shop at the end of the year.",
+
     "features_title_four_key": "Adjust it to suit you",
-    "features_details_four_three_key": "Choose the right module for you, whether it is gold by weight, gold by piece or diamond by piece, add your company logo. also you can freely adjust the site's colours and identity to match your brand identity"
+    "features_details_four_three_key": "Choose the right module for you, whether it is gold by weight, gold by piece or diamond by piece, add your company logo. also you can freely adjust the site's colours and identity to match your brand identity",
+
+    "monthly_subscription_key": "Monthly Subscription",
+    "annual_subscription_key": "Annual Subscription",
+
+    "get_in_touch_key": "Get In Touch",
+    "please_fill_out_the_form_below_to_send_us_an_email_and_we_will_get_back_to_you_as_soon_as_possible.": "Please fill out the form below to send us an email and we will get back to you as soon as possible.",
+    "name_key": "Name",
+    "email_key": "Email",
+    "message_key": "Message",
+    "contact_info_key": "Contact Info",
+    "address_key": "Address",
+    "phone_key": "Phone",
+    "send_message_key": "Send Message",
+    "loading_key": "Loading..."
 }

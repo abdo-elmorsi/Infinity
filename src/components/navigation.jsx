@@ -56,11 +56,13 @@ export const Navigation = (props) => {
             </li>
             {currentLanguageCode === "ar" ? (
               <li
+                className="nav-item"
                 onClick={() => {
                   i18next.changeLanguage("en");
                 }}
               >
-                english
+                <a className="nav-link page-scroll" href="#en">English</a>
+
                 {/* <img
                   name="en"
                   src={"https://flagcdn.com/us.svg"}
@@ -74,7 +76,8 @@ export const Navigation = (props) => {
                   i18next.changeLanguage("ar");
                 }}
               >
-                عربي
+                <a className="nav-link page-scroll" href="#ar">عربي</a>
+
                 {/* <img
                   name="ar"
                   src={"https://flagcdn.com/eg.svg"}

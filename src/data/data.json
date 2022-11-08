@@ -13,118 +13,17 @@
             "paragraph": "header_title_one_key"
         }
     ],
-    "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
-        ],
-        "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
-        ]
-    },
-    "Services": [
-        {
-            "icon": "fa fa-wordpress",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-cart-arrow-down",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-cloud-download",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-language",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-plane",
-            "name": "Lorem ipsum dolor",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        },
-        {
-            "icon": "fa fa-pie-chart",
-            "name": "Consectetur adipiscing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-        }
-    ],
-    "Testimonials": [
-        {
-            "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        }
-    ],
-    "Team": [
-        {
-            "img": "img/team/01.jpg",
-            "name": "John Doe",
-            "job": "Director"
-        },
-        {
-            "img": "img/team/02.jpg",
-            "name": "Mike Doe",
-            "job": "Senior Designer"
-        },
-        {
-            "img": "img/team/03.jpg",
-            "name": "Jane Doe",
-            "job": "Senior Designer"
-        },
-        {
-            "img": "img/team/04.jpg",
-            "name": "Karen Doe",
-            "job": "Project Manager"
-        }
-    ],
     "Contact": {
         "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
+        "phone": "+971 56 859 9461",
         "email": "info@company.com",
-        "facebook": "fb.com",
+        "facebook": "https://www.facebook.com/abdallaha.badwie",
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
     "Features": [
         {
-            "img": "https://qaraterp.com/public/upload/service/202102111544068169218.png",
+            "img": "/img/features/one.jpg",
             "title": "features_title_one_key",
             "options": [
                 "features_details_one_one_key",
@@ -133,7 +32,7 @@
             ]
         },
         {
-            "img": "https://qaraterp.com/public/upload/service/202102111600528935749.png",
+            "img": "/img/features/two.jpg",
             "title": "features_title_two_key",
             "options": [
                 "features_details_two_one_key",
@@ -142,26 +41,26 @@
             ]
         },
         {
-            "img": "https://qaraterp.com/public/upload/service/202102111652023562545.png",
+            "img": "/img/features/three.jpg",
             "title": "features_title_three_key",
             "options": [
-                "Calculate the net income for each period through the profit and loss report",
-                "View sales reports by items to learn about the best-selling jewellery and gold jewellery",
-                "Make a periodic inventory of your stock of products through the inventory report. You can also benefit from many other reports that cover all aspects of your business.",
-                "Follow up the daily reports that are created automatically for any financial operations or procedures that take place inside the store",
-                "A complete network of accounts displaying all balances of the store's accounts with all movements within each account",
-                "Final accounting reports determining the financial position of the shop at the end of the year."
+                "features_details_three_one_key",
+                "features_details_three_two_key",
+                "features_details_three_three_key",
+                "features_details_three_four_key",
+                "features_details_three_fife_key",
+                "features_details_three_six_key"
             ]
         },
         {
-            "img": "https://qaraterp.com/public/upload/service/202102141248358267243.png",
+            "img": "/img/features/four.png",
             "title": "features_title_four_key",
             "options": ["features_details_four_three_key"]
         }
     ],
     "Pricing": [
         {
-            "title": "Monthly Subscription",
+            "title": "monthly_subscription_key",
             "price": "5,000.00",
             "options": [
                 "10 GB of storage",
@@ -170,7 +69,7 @@
             ]
         },
         {
-            "title": "Annual Subscription",
+            "title": "annual_subscription_key",
             "price": "5,750.00",
             "options": [
                 "10 GB of storage",

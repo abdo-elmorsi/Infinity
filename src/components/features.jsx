@@ -13,7 +13,7 @@ export const Features = (props) => {
         <div className='row'>
           {props.data
             ? props.data.map((d, i) => (
-              <div key={`${d.title}-${i}`} className='col-12'>
+              <div key={`${d.title}-${i}`} className='col-12 mb-5'>
                 <div className="row d-flex  align-items-center">
                   <div className={`col-lg-6 ${i % 2 == 1 ? "order-2" : "order-1"}`}>
                     <img src={d.img} alt={d.title} />

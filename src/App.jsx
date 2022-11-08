@@ -4,11 +4,6 @@ import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { Pricing } from "./components/Pricing";
-// import LazyShow from "./components/LazyShow";
-// import { About } from "./components/about";
-// import { Services } from "./components/services";
-// import { Testimonials } from "./components/testimonials";
-// import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -45,11 +40,12 @@ const App = () => {
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <Pricing data={landingPageData.Pricing} />
-      {/* <About data={landingPageData.About} /> */}
-      {/* <Services data={landingPageData.Services} /> */}
-      {/* <Testimonials data={landingPageData.Testimonials} /> */}
-      {/* <Team data={landingPageData.Team} /> */}
       <Contact data={landingPageData.Contact} />
+
+      <a href="whatsapp://send?text=Hello%20World!&phone=+971568599461">
+
+        <img className="whatsApp" src="/img/whatsApp.png" alt="whatsApp" />
+      </a>
     </div>
   );
 };

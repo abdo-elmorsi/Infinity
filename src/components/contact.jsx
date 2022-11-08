@@ -1,21 +1,24 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
 import { toast } from 'react-toastify';
+import Cookies from 'js-cookie';
+import { useTranslation } from 'react-i18next';
 
-const initialState = {
-  name: '',
-  email: '',
-  message: '',
+const inintial = {
+  name: "",
+  email: "",
+  message: "",
 }
 export const Contact = (props) => {
+  const lang = Cookies.get("i18next") || "en";
+  const { t } = useTranslation();
   const [loading, setloading] = useState(false);
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [state, setState] = useState({});
 
   const handleChange = (e) => {
     const { name, value } = e.target
     setState((prevState) => ({ ...prevState, [name]: value }))
   }
-  const clearState = () => setState({ ...initialState })
   const handleSubmit = (e) => {
     setloading(true);
     e.preventDefault();
@@ -28,7 +31,7 @@ export const Contact = (props) => {
       )
       .then((res) => {
         toast.success("Your message has been sent.");
-        clearState();
+        setState(inintial);
         setloading(false);
       })
       .catch((er) => {
@@ -43,11 +46,10 @@ export const Contact = (props) => {
           <div className="row">
             <div className='col-md-8'>
 
-              <div className='section-title'>
-                <h2>Get In Touch</h2>
+              <div className={`section-title ${lang == "en" ? "text-left" : "text-right"}`}>
+                <h2 className={lang !== "en" ? "right" : ""}>{t("get_in_touch_key")}</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  {t("please_fill_out_the_form_below_to_send_us_an_email_and_we_will_get_back_to_you_as_soon_as_possible.")}
                 </p>
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
@@ -58,12 +60,12 @@ export const Contact = (props) => {
                         type='text'
                         id='name'
                         name='name'
+                        value={state?.name}
                         className='form-control'
-                        placeholder='Name'
+                        placeholder={t("name_key")}
                         required
                         onChange={handleChange}
                       />
-                      <p className='help-block text-danger'></p>
                     </div>
                   </div>
                   <div className='col-md-6'>
@@ -72,8 +74,9 @@ export const Contact = (props) => {
                         type='email'
                         id='email'
                         name='email'
+                        value={state?.email}
                         className='form-control'
-                        placeholder='Email'
+                        placeholder={t("email_key")}
                         required
                         onChange={handleChange}
                       />
@@ -85,27 +88,29 @@ export const Contact = (props) => {
                   <textarea
                     name='message'
                     id='message'
+                    value={state?.message}
                     className='form-control'
                     rows='4'
-                    placeholder='Message'
+                    placeholder={t("message_key")}
                     required
                     onChange={handleChange}
                   ></textarea>
                   <p className='help-block text-danger'></p>
                 </div>
-                <div id='success'></div>
-                <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
+
+                <button type='submit' className='d-block btn btn-custom btn-lg'>
+
+                  {!loading ? t("send_message_key") : t("loading_key")}
                 </button>
               </form>
 
             </div>
-            <div className='col-md-3 contact-info'>
+            <div className={`col-md-3 contact-info ${lang == "en" ? "text-left" : "text-right"}`}>
               <div className='contact-item'>
-                <h3>Contact Info</h3>
+                <h3>{t("contact_info_key")}</h3>
                 <p>
                   <span>
-                    <i className='fa fa-map-marker'></i> Address
+                    <i className='fa fa-map-marker'></i> {t("address_key")}
                   </span>
                   {props.data ? props.data.address : 'loading'}
                 </p>
@@ -113,7 +118,7 @@ export const Contact = (props) => {
               <div className='contact-item'>
                 <p>
                   <span>
-                    <i className='fa fa-phone'></i> Phone
+                    <i className='fa fa-phone'></i> {t("phone_key")}
                   </span>{' '}
                   {props.data ? props.data.phone : 'loading'}
                 </p>
@@ -121,7 +126,7 @@ export const Contact = (props) => {
               <div className='contact-item'>
                 <p>
                   <span>
-                    <i className='fa fa-envelope-o'></i> Email
+                    <i className='fa fa-envelope-o'></i> {t("email_key")}
                   </span>{' '}
                   {props.data ? props.data.email : 'loading'}
                 </p>
@@ -153,46 +158,10 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
-      {/* <div className="row">
-        <div className="col-lg-6 col-md-12 col-sm-12 column">
-          <div className="form-group">
-            <i className="fa fa-user"></i>
-            <input type="text" name="name" placeholder="Full Name" required="" aria-required="true" className="valid" aria-invalid="false" /><label id="name-error" className="error" for="name" style={{ display: "none" }}></label>
-          </div>
-        </div>
-        <div className="col-lg-6 col-md-12 col-sm-12 column">
-          <div className="form-group">
-            <i className="fa fa-envelope"></i>
-            <input type="email" name="email" placeholder="E-Mail" required="" aria-required="true" className="error" aria-invalid="true" /><label id="email-error" className="error" for="email">This field is required.</label>
-          </div>
-        </div>
-        <div className="col-lg-6 col-md-12 col-sm-12 column">
-          <div className="form-group">
-            <i className="fa fa-globe"></i>
-            <input type="text" name="website" placeholder="main.website" aria-required="true" />
-          </div>
-        </div>
-        <div className="col-lg-6 col-md-12 col-sm-12 column">
-          <div className="form-group">
-            <i className="fa fa-phone"></i>
-            <input type="text" name="mobile" placeholder="Mobile" required="" aria-required="true" className="error" /><label id="mobile-error" className="error" for="mobile">This field is required.</label>
-          </div>
-        </div>
-        <div className="col-lg-12 col-md-12 col-sm-12 column">
-          <div className="form-group">
-            <textarea name="comment" placeholder="Message"></textarea>
-          </div>
-        </div>
-        <div className="col-lg-12 col-md-12 col-sm-12 column">
-          <div className="form-group message-btn centred">
-            <button type="submit" className="theme-btn-two" name="submit-form">Send </button>
-          </div>
-        </div>
-      </div> */}
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2022 Erp-infinity.
+            &copy; 2022 INFINITY
           </p>
         </div>
       </div>
