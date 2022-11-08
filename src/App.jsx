@@ -23,7 +23,9 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div style={{
+      overflowX: "hidden"
+    }}>
       <ToastContainer
         position="top-right"
         autoClose={4000}

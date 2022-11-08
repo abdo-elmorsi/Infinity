@@ -8,9 +8,6 @@ html {
     width: 100% !important;
     height: 100% !important;
 }
-body {
-    overflow-x: hidden;
-}
 /* width */
 ::-webkit-scrollbar {
     width: 7px;
