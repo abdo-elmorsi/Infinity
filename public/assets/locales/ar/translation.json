@@ -38,5 +38,6 @@
     "address_key": "العنوان",
     "phone_key": "هاتف",
     "send_message_key": "أرسل رسالة",
-    "loading_key": "جار التحميل..."
+    "loading_key": "جار التحميل...",
+    "whats_app_message_key": "السلام عليكم"
 }

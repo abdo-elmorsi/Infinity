@@ -42,8 +42,7 @@ const App = () => {
       <Pricing data={landingPageData.Pricing} />
       <Contact data={landingPageData.Contact} />
 
-      <a href="whatsapp://send?text=Hello%20World!&phone=+971568599461">
-
+      <a href={`https://web.whatsapp.com/send?text=${t("whats_app_message_key")}&phone=+971568599461`}>
         <img className="whatsApp" src="/img/whatsApp.png" alt="whatsApp" />
       </a>
     </div>
