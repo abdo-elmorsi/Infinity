@@ -6,14 +6,14 @@ const languages = [
   {
     key: "222",
     code: "en",
-    text: "English",
+    text: "عربي",
     name: "English",
     country_code: "gb",
   },
   {
     key: "111",
     code: "ar",
-    text: "Arabic",
+    text: "English",
     dir: "rtl",
     country_code: "ar",
     name: "Arabic",
@@ -37,7 +37,7 @@ export const Navigation = (props) => {
       <div className='container'>
         <div className="navbar-header w-100  d-flex justify-content-between">
           <a className="navbar-brand page-scroll" href="#">
-            <img width={130} height={45} src="/img/logo.png" alt="logo" />
+            <img width={100} height={45} src="/img/logo.png" alt="logo" />
           </a>
           <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -61,7 +61,7 @@ export const Navigation = (props) => {
                   i18next.changeLanguage("en");
                 }}
               >
-                <a className="nav-link page-scroll" href="#en">English</a>
+                <a className="nav-link page-scroll" href="#en">{currentLanguage.text}</a>
 
                 {/* <img
                   name="en"
@@ -76,7 +76,7 @@ export const Navigation = (props) => {
                   i18next.changeLanguage("ar");
                 }}
               >
-                <a className="nav-link page-scroll" href="#ar">عربي</a>
+                <a className="nav-link page-scroll" href="#ar">{currentLanguage.text}</a>
 
                 {/* <img
                   name="ar"

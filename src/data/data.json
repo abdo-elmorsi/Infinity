@@ -77,5 +77,15 @@
                 "Help center access"
             ]
         }
+    ],
+    "Faq": [
+        {
+            "question": "faq_question_one_key",
+            "answer": "faq_answer_one_key"
+        },
+        {
+            "question": "faq_question_two_key",
+            "answer": "faq_answer_two_key"
+        }
     ]
 }

@@ -4,7 +4,7 @@ export const Header = (props) => {
   const { t } = useTranslation();
   return (
     <>
-      <div id="carouselExampleIndicators" className="header carousel slide" data-ride="carousel">
+      <div id="carouselExampleIndicators" className="header carousel slide d-none d-lg-flex" data-ride="carousel">
         <ol className="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -14,7 +14,7 @@ export const Header = (props) => {
           {props?.data ? (<>
             {props?.data.map((ele, i) => {
               return <div className={`carousel-item ${i == 0 ? "active" : ""}`} key={i}>
-                <img className="d-block w-100" src="/img/intro-bg.jpg" alt="First slide" />
+                <img className="d-block w-100" src="/img/introTwo.png" alt="First slide" />
                 <div className="carousel-caption d-none d-md-block">
                   <h1 className="font-weight-bold">{t(ele?.title)}</h1>
                   <p className="lead text-white">{t(ele?.paragraph)}</p>

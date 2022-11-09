@@ -1,6 +1,9 @@
+import React from "react";
 import { useTranslation } from "react-i18next";
+import { motion } from 'framer-motion/dist/framer-motion'
 
-export const Pricing = (props) => {
+export const Pricing = React.forwardRef((props, ref) => {
+
   const { t } = useTranslation();
   return (
     <div id='pricing' className='text-center'>
@@ -11,7 +14,14 @@ export const Pricing = (props) => {
         <div className="card-deck mb-3 text-center">
           {props.data
             ? props.data.map((d, i) => (
-              <div key={i} className="card mb-4 box-shadow">
+              <motion.div
+                initial={{ y: i % 2 == 1 ? 100 : -100, opacity: 0 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+                viewport={{ root: ref }}
+                key={i}
+                className="card mb-4 box-shadow"
+              >
                 <div className="card-header">
                   <h4 className="my-0 font-weight-normal">{t(d?.title)}</h4>
                 </div>
@@ -20,17 +30,17 @@ export const Pricing = (props) => {
                   <ul className="list-unstyled mt-3 mb-4">
                     {d.options.map((c) => {
                       return (
-                        <li>{c}</li>
+                        <li key={c}>{c}</li>
                       )
                     })}
 
                   </ul>
                 </div>
-              </div>
+              </motion.div>
             ))
             : 'Loading...'}
         </div>
       </div>
     </div>
   )
-}
+});

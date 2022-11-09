@@ -39,5 +39,11 @@
     "phone_key": "Phone",
     "send_message_key": "Send Message",
     "loading_key": "Loading...",
-    "whats_app_message_key": "Hi"
+    "whats_app_message_key": "Hi",
+    "faq_key": "FAQ",
+
+    "faq_question_one_key": "How long is the trial period?",
+    "faq_answer_one_key": "The trial period is 14 days",
+    "faq_question_two_key": "Will I get technical support services during my subscription period?",
+    "faq_answer_two_key": "Yes, of course, technical support will continue throughout the subscription period. The cost of the subscription includes technical support and hosting service as well"
 }
