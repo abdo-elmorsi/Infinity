@@ -192,7 +192,7 @@ hr {
 .btn-custom {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
-    color: #fff;
+    color: #fff !important;
     background-color: #5ca9fb;
     background-image: linear-gradient(to right, #5ca9fb 0%, #397699 100%);
     padding: 14px 34px;
@@ -377,13 +377,13 @@ label {
     color: #fff !important;
 }
 .form-control:-moz-placeholder {
-    color: #fff;
+    color: #fff !important;
 }
 .form-control::-moz-placeholder {
-    color: #fff;
+    color: #fff !important;
 }
 .form-control:-ms-input-placeholder {
-    color: #fff;
+    color: #fff !important;
 }
 #contact .contact-item {
     margin: 20px 0;
